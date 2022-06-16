@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap');
+
+
+body {
+    background-color: #F2F2F0;
+    font-family: Rubik;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 900;
+    color: #1B208C;
+}
+
+h2 {
+    font-weight: 700;
+    color: #464AA6;
+}
+
+a {
+    text-decoration: none;
+    color: #787CBF;
+    font-weight: 900;
+}
+
+a.hover: {
+    color: #F2BC79
+}
+
+.card {
+    background: white;                         
+    padding: 20px;                        
+    border-radius: 4px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    margin: 10px auto;
+}
+
+.container {
+    width: 500px;   
+    margin: 5px auto;
+    text-align: center; 
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.icon {
+    color: #787CBF;
+    font-size: 32px;
+}
+
+.icon:hover {
+    color: #F2BC79;
+}
+
